@@ -10,13 +10,15 @@ A little about me:
 A meme that captures how I currently feel about my university studies is ![](https://c.tenor.com/8druEACXtX8AAAAd/tenor.gif)
 # Heading 1
 ## Heading 2
-< !--- number lists --->
+
 1. ordered 1
 2. ordered 2
-< !--- unordered lists --->
+
 * unordered 1
 * unordered 2
 **stats220**
   *stats220*
+  
 [Youtube](https://www.youtube.com/@MovieCentral)
+
 [animal](https://media1.tenor.com/m/LHpfjoP6TZ4AAAAC/thank-you.gif)
