@@ -19,6 +19,6 @@ A meme that captures how I currently feel about my university studies is ![](htt
 **stats220**
   *stats220*
   
-[Youtube](https://www.youtube.com/@MovieCentral)
+![Youtube](https://www.youtube.com/@MovieCentral)
 
-[animal](https://media1.tenor.com/m/LHpfjoP6TZ4AAAAC/thank-you.gif)
+![animal](https://media1.tenor.com/m/LHpfjoP6TZ4AAAAC/thank-you.gif)
