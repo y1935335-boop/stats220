@@ -9,7 +9,7 @@
 
 * A meme that captures how I currently feel about my university studies is
 ![animal](https://media1.tenor.com/m/LHpfjoP6TZ4AAAAC/thank-you.gif)
-** This is one of my favorite YouTube channels [Youtube](https://www.youtube.com/@MovieCentral)
+* This is one of my favorite YouTube channels [Youtube](https://www.youtube.com/@MovieCentral)
 
 
   
