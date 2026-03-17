@@ -8,17 +8,14 @@ A little about me:
 - I am interested in learning about R language
 
 A meme that captures how I currently feel about my university studies is ![](https://c.tenor.com/8druEACXtX8AAAAd/tenor.gif)
-# Heading 1
-## Heading 2
+# Stats 220 
+## Project 1
 
-1. ordered 1
-2. ordered 2
+A little about me
+1. My major is **statistics**
+2. I am very interested in the *R programming* language.
 
-* unordered 1
-* unordered 2
-**stats220**
-  *stats220*
+* This is one of my favorite YouTube channels [Youtube](https://www.youtube.com/@MovieCentral)
+* Finally, here's a really cute GIF of my favorite little animal.![animal](https://media1.tenor.com/m/LHpfjoP6TZ4AAAAC/thank-you.gif)
+
   
-[Youtube](https://www.youtube.com/@MovieCentral)
-
-![animal](https://media1.tenor.com/m/LHpfjoP6TZ4AAAAC/thank-you.gif)
