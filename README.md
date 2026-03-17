@@ -17,7 +17,8 @@ A little about me
 
 * This is one of my favorite YouTube channels [Youtube](https://www.youtube.com/@MovieCentral)
 
-* Finally, here's a really cute GIF of my favorite little animal.
+* Finally, here's a really cute GIF of my favorite animal.
+
 ![animal](https://media1.tenor.com/m/LHpfjoP6TZ4AAAAC/thank-you.gif)
 
   
