@@ -26,7 +26,7 @@ padding:10px;
 library(tidyverse)
 csv_file <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vTpdieTpVnVwJeP7hcX92XE8MEFqoLVBH7zr0wy_9c7SGQrHsomLFajEyn691iLLSxn1h8LHUMQXzJ3/pub?gid=351943006&single=true&output=csv"
 logged_data <- read_csv(csv_file)
-logged_data
+
 
 #rename variables and create a new data frame
 latest_data <- logged_data %>%
