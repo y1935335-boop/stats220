@@ -1,0 +1,76 @@
+---
+title: My dynamic report
+output: html_fragment
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
+
+```
+
+```{css}
+body{
+font-family:'Indie Flower', cursive;
+background-color: #fff0f5;
+}
+h2{
+color: #ff9999;
+padding:10px;
+}
+```
+
+## My TikTok viewing data
+
+
+```{r}
+library(tidyverse)
+csv_file <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vTpdieTpVnVwJeP7hcX92XE8MEFqoLVBH7zr0wy_9c7SGQrHsomLFajEyn691iLLSxn1h8LHUMQXzJ3/pub?gid=351943006&single=true&output=csv"
+logged_data <- read_csv(csv_file)
+logged_data
+
+#rename variables and create a new data frame
+latest_data <- logged_data %>%
+  rename(timestamp = "Timestamp",
+         video_content = "What type of content was the video mainly about?",
+          watch_full = "Did you watch the full video?",
+          video_length = "How long was the video(in seconds)?",
+           video_like = "How many likes did the video have?")
+
+
+```
+This report explores my TikTok viewing habits over several days. It focuses on the types of videos I watched, whether I watched them fully, the length of the videos, and the number of likes each video received.
+
+```{r}
+paste("The average length of the TikTok videos in my data is",
+      round(mean(latest_data$video_length), 1),
+      "seconds.")
+paste("The longest TikTok video in my data is", max(latest_data$video_length), "seconds.")
+paste("The shortest TikTok video in my data is", min(latest_data$video_length), "seconds.")
+
+```
+
+```{r}
+###Video content types
+#The chart below shows the distribution of different types of TikTok videos.
+
+latest_data %>%
+  ggplot() +
+  geom_bar(aes(x = video_content)) +
+  labs(title = "Number of TikTok videos by content type",
+       x = "content type",
+       y = "count")
+```
+
+
+```{r}
+### Watching behaviour
+#The chart below shows whether I watched the videos fully.
+
+latest_data %>%
+  ggplot() +
+  geom_bar(aes(x = watch_full)) +
+  labs(title = "Whether the full video was watched",
+       x = "watched full video",
+       y = "count")
+```
+
